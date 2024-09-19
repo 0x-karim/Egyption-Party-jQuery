@@ -1,0 +1,125 @@
+.home {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.3) , rgba(255, 0, 0, 0.3)) , url(../Imgs/events-heavenly-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home h1 {
+    font-size: 70px;
+}
+
+.home p {
+    font-size: 20px;
+}
+
+aside {
+    background-color: slateblue;
+    height: 100vh;
+    position: relative;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+}
+
+aside .icon {
+    cursor: pointer;
+    position: absolute;
+    right: -105px;
+    top: 45%;
+}
+
+aside .sideBar {
+    background-color: rgb(22, 22, 22);
+    width: 250px;
+    height: 100vh;
+    display: none;
+}
+
+aside .sideBar > button {
+    position: relative;
+    left: 80%;
+}
+
+aside .sideBar > button:focus {
+    box-shadow: none !important;
+}
+
+aside .sideBar article a {
+    transition: color 0.3s;
+}
+
+aside .sideBar article a:hover {
+    color: brown !important;
+}
+
+.singers .singer {
+    width: 60%;
+    margin-inline: auto;
+}
+
+.singers .singer h2 {
+    background-color: rgb(233, 130, 133);
+    cursor: pointer;
+}
+
+.singers .singer p {
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    display: none;
+}
+
+.singers .singer p.desc.one{
+    display: block;
+}
+
+#duration {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5) , rgba(255, 0, 0, 0.5)) , url(../Imgs/invitation-2508607__340.jpg);
+    background-position: start;
+    background-repeat: round;
+    background-size: auto;
+}
+
+#contact .container .icons-list span {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(120, 120, 120);
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#contact .container .icons-list span:hover {
+    background-color: rgb(210, 60, 60);
+    color: whitesmoke;
+    border-color: rgb(210, 60, 60);
+}
+
+.text-gray {
+    color: rgb(120, 120, 120);
+}
+
+#contact .container .form-control:focus {
+    box-shadow: none;
+    border-color: rgb(210, 60, 60);
+    color: rgb(210, 60, 60);
+}
+
+::placeholder {
+    color: rgb(140, 140, 140) !important;
+}
+
+#contact .container .btn {
+    background-color: rgb(210, 60, 60);
+    color: whitesmoke;
+    border: 2px solid rgb(210, 60, 60);
+    transition: all 0.4s;
+}
+
+#contact .container .btn:hover {
+    background-color: white;
+    color: rgb(210, 60, 60);
+}
